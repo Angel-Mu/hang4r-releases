@@ -24,6 +24,15 @@ never touches your credentials.
 **Updates:** hang4r checks for updates from this repository — you'll get new
 releases in-app (Settings → Updates), always as a manual choice.
 
+## Permission prompts?
+
+hang4r itself requires no special permissions — it reads the workspaces you
+add. macOS attributes your AGENTS' and terminal commands' file access to the
+hosting app (same as iTerm or Cursor), so a broad `grep`/`find` by an agent
+can trigger prompts for Photos, Music, or volumes. **Denying is safe.** Grant
+only what your workflow needs; revoke any grant in System Settings → Privacy &
+Security without breaking hang4r.
+
 ## Something broken? Ideas?
 
 Open an [issue](https://github.com/Angel-Mu/hang4r-releases/issues) — bug
